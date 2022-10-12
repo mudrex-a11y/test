@@ -1,3 +1,3 @@
 install:
   FILE="-Dfile=sample_image-preview-debug.aar"
-  mvn install:install-file $FILE -DgroupId=com.android.application -DartifactId=test -Dversion=1.0 -Dpackaging=aar -DpomFile=pom.xml
+  mvn install:install-file $FILE -DgroupId=com.github.mudrex-a11y -DartifactId=test -Dversion=1.0 -Dpackaging=aar -DpomFile=pom.xml
